@@ -10,7 +10,7 @@ We export three ESLint configurations for your usage.
 
 Our default export contains all of our ESLint rules, including EcmaScript 6+. It requires `eslint`.
 
-1. `npm install --save-dev eslint-config-bayzat eslint`
+1. `npm install --save-dev bitbucket:bayzat/eslint-config-bayzat eslint`
 2. add `"extends": "bayzat"` to your .eslintrc
 
 
