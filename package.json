@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-bayzat",
+  "version": "1.0.0",
+  "description": "Shareable ESLint-er config used in all bayzat projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/bayzat/eslint-config-bayzat.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "bayzat"
+  ],
+  "author": "Michal Kechner <kepek@bayzat.com> (http://bayzat.com)",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/bayzat/eslint-config-bayzat#readme"
+}
