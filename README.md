@@ -8,8 +8,7 @@ We export three ESLint configurations for your usage.
 
 ### eslint-config-bayzat
 
-Our default export contains all of our ESLint rules, including EcmaScript 6+
-and React. It requires `eslint` and `eslint-plugin-react`.
+Our default export contains all of our ESLint rules, including EcmaScript 6+. It requires `eslint`.
 
 1. `npm install --save-dev eslint-config-bayzat eslint`
 2. add `"extends": "bayzat"` to your .eslintrc
