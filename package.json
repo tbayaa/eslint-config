@@ -27,7 +27,7 @@
       "name": "Michal Kechner",
       "email": "kepek@bayzat.com"
     }
-  ]
+  ],
   "devDependencies": {
     "eslint": ">=1.10.3"
   },
