@@ -9,12 +9,12 @@ Our default export contains all of our ESLint rules, including EcmaScript 6+.
 1. `npm install --save-dev bitbucket:bayzat/eslint-config `
 2. add it to your `.eslintrc` file
 
-    ```json
-    {
-      "extends": "eslint-config-bayzat"
-    }
+```json
+{
+  "extends": "eslint-config-bayzat"
+}
 
-    ```
+```
 
 ## Editors
 
