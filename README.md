@@ -6,7 +6,7 @@ This package provides bayzat's .eslintrc as an extensible [shareable config](htt
 
 Our default export contains all of our ESLint rules, including EcmaScript 6+.
 
-1. `npm install --save-dev bitbucket:bayzat/eslint-config-bayzat eslint`
+1. `npm install --save-dev bitbucket:bayzat/eslint-config eslint`
 2. add `"extends": "bayzat"` to your .eslintrc
 
 See the [ESlint config docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files)
