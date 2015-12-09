@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "eslint-config-bayzat",
   "version": "1.0.1",
   "description": "Shareable ESLint-er config used in all bayzat projects.",
   "main": "index.js",
