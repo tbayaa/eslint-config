@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bayzat",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Shareable ESLint-er config used in all bayzat projects.",
   "main": "index.js",
   "scripts": {
@@ -29,6 +29,6 @@
     }
   ],
   "peerDependencies": {
-    "eslint": ">=1.10.3"
+    "eslint": "^2.2.0"
   }
 }
