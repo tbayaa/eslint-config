@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/bayzat/eslint-config.git"
+    "url": "git+ssh://git@github.com/tbayaa/eslint-config.git"
   },
   "keywords": [
     "eslint",
@@ -21,7 +21,7 @@
   ],
   "author": "Michal Kechner <kepek@bayzat.com> (http://bayzat.com)",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/bayzat/eslint-config#readme",
+  "homepage": "https://github.com/tbayaa/eslint-config#readme",
   "contributors": [
     {
       "name": "Michal Kechner",
