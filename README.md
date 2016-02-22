@@ -7,6 +7,7 @@ This package provides bayzat's .eslintrc as an extensible [shareable config](htt
 Our default export contains all of our ESLint rules, including EcmaScript 6+.
 
 1. `npm install --save-dev bitbucket:bayzat/eslint-config `
+git+ssh://git@github.com/tbayaa/eslint-config.git
 2. add it to your `.eslintrc` file
 
 ```json
@@ -20,7 +21,7 @@ Our default export contains all of our ESLint rules, including EcmaScript 6+.
 
 If you want to use this config with your favourite code editor you will probably need to install this config globally into your system library.
 
-`npm install --global bitbucket:bayzat/eslint-config`
+`npm install --global git+ssh://git@github.com/tbayaa/eslint-config.git`
 
 See the [ESlint config docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files)
 for more information.
@@ -34,7 +35,8 @@ programming to structure our README as test cases for our .eslintrc?
 You can make sure this module lints with itself using `npm run lint`.
 
 ## Support
-If you have any problem or suggestion please open an issue [here](https://bitbucket.org/bayzat/eslint-config/issues).
+If you have any problem or suggestion please open an issue [here](https://github.com/tbayaa/eslint-config/issues).
+git+ssh://git@github.com/tbayaa/eslint-config.git
 
 ## License
 
