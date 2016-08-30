@@ -39,7 +39,7 @@ module.exports = {
     },
     "rules": {
         "no-unused-vars": [1, {"vars": "local", "args": "none"}],
-        "indent": 2,
+        "indent": [2, 4, {"SwitchCase": 1}],
         "quotes": [2, "single"],
         "linebreak-style": [2, "unix"],
         "semi": [2, "never"],
