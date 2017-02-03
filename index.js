@@ -1,8 +1,8 @@
 /**
  * Shareable ESLint-er config used in all bayzat projects.
  * @author Michal Kechner <kepek@bayzat.com>
- * @author Bernard Lange <kepek@bayzat.com>
- * @author Piotr Leszkowicz <kepek@bayzat.com>
+ * @author Bernard Lange <bernard@bayzat.com>
+ * @author Piotr Leszkowicz <piotr@bayzat.com>
  */
 
 module.exports = {
