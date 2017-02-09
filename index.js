@@ -19,6 +19,7 @@ module.exports = {
         'binaryLiterals': true,
         'blockBindings': true,
         'classes': true,
+        'comma-dangle': [2, 'never' ],
         'defaultParams': true,
         'destructuring': true,
         'forOf': true,
