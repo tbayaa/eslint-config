@@ -33,6 +33,7 @@ anything involving regexes. Perhaps in a distant future, we could use literate
 programming to structure our README as test cases for our .eslintrc?
 
 You can make sure this module lints with itself using `npm run lint`.
+It will also fix the found issues if possible.
 
 ## Support
 If you have any problem or suggestion please open an issue [here](https://github.com/tbayaa/eslint-config/issues).

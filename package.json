@@ -4,7 +4,7 @@
   "description": "Shareable ESLint-er config used in all bayzat projects.",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint --fix .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,8 +24,18 @@
   "homepage": "https://github.com/tbayaa/eslint-config#readme",
   "contributors": [
     {
+      "name": "Bernard Lange",
+      "email": "bernard@bayzat.com"
+    },
+    {
       "name": "Michal Kechner",
       "email": "kepek@bayzat.com"
     }
-  ]
+  ],
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  },
+  "peerDependencies": {
+    "eslint": "^3.19.0"
+  }
 }
