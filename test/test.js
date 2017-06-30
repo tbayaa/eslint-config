@@ -7,7 +7,7 @@ const conf = require('../')
 // The source files to lint.
 const repoFiles = [
     'index.js',
-    'test/test.js',
+    'test/test.js'
 ]
 
 // Use the rules defined in this repo to test against.
@@ -25,7 +25,7 @@ if (report.errorCount || report.warningCount) {
     var formatter = cli.getFormatter()
 
     // output to console
-    console.log(formatter(report.results))
+    console.log(formatter(report.results)) // eslint-disable-line no-console
 }
 
 assert.equal(report.errorCount, 0)

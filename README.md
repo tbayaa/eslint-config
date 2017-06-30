@@ -33,6 +33,7 @@ anything involving regexes. Perhaps in a distant future, we could use literate
 programming to structure our README as test cases for our .eslintrc?
 
 You can make sure this module lints with itself using `npm run lint`.
+It will also fix the found issues if possible.
 
 ## Support
 If you have any problem or suggestion please open an issue [here](https://github.com/tbayaa/eslint-config/issues).
@@ -42,7 +43,7 @@ git+ssh://git@github.com/tbayaa/eslint-config.git
 
 [MIT](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2015, Michal Kechner
+Copyright (c) 2017, Bayzat
 
 ## ఠ ͟ಠ Pull requests are welcome, naturally
 
@@ -50,4 +51,4 @@ Copyright (c) 2015, Michal Kechner
 
 ----
 
-Made with ♥ at [bayzat](http://bayzat.com)!
+Made with ♥ at [Bayzat](http://bayzat.com)!
