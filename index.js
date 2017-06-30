@@ -19,7 +19,6 @@ module.exports = {
         'binaryLiterals': true,
         'blockBindings': true,
         'classes': true,
-        'comma-dangle': [2, 'never' ],
         'defaultParams': true,
         'destructuring': true,
         'forOf': true,
@@ -40,18 +39,17 @@ module.exports = {
         'globalReturn': true,
         'jsx': true
     },
-    'rules': {
-        'arrow-body-style': [2, 'always'],
+    rules: {
         'arrow-parens': [2, 'always', { 'requireForBlockBody': true }],
+        'arrow-body-style': [2, 'always'],
         'brace-style': [ 2, '1tbs' ],
+        'comma-dangle': [2, 'never' ],
         'curly': 2,
         'eqeqeq': 2,
         'guard-for-in': 2,
-        'no-unused-vars': [1, { 'vars': 'local', 'args': 'none' }],
         'indent': [ 2, 4, { 'SwitchCase': 1 } ],
         'key-spacing': [ 2, { 'beforeColon': false, 'afterColon': true } ],
         'keyword-spacing': 2,
-        'quotes': [2, 'single'],
         'linebreak-style': [2, 'unix'],
         'max-params': [ 1, 4 ],
         'no-extra-bind': 2,
@@ -60,9 +58,11 @@ module.exports = {
         'no-param-reassign': 'error',
         'no-spaced-func': 2,
         'no-trailing-spaces': 2,
+        'no-unused-vars': [1, { 'vars': 'local', 'args': 'none' }],
         'object-curly-spacing': ['error', 'always'],
         'semi': [2, 'never'],
         'spaced-comment': ['error', 'always'],
-        'strict': 0
+        'strict': 0,
+        'quotes': [2, 'single']
     }
 }

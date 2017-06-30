@@ -26,6 +26,14 @@
     {
       "name": "Michal Kechner",
       "email": "kepek@bayzat.com"
+    },
+    {
+      "name": "Bernard Lange",
+      "email": "bernard@bayzat.com"
+    },
+    {
+      "name": "Piotr Leszkowicz",
+      "email": "piotr@bayzat.com"
     }
   ],
   "devDependencies": {
