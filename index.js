@@ -63,6 +63,7 @@ module.exports = {
         'semi': [2, 'never'],
         'spaced-comment': ['error', 'always'],
         'strict': 0,
-        'quotes': [2, 'single']
+        'quotes': [2, 'single'],
+        'eol-last': [2, 'always']
     }
 }
