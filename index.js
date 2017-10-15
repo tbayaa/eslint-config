@@ -3,6 +3,7 @@
  * @author Michal Kechner <kepek@bayzat.com>
  * @author Bernard Lange <bernard@bayzat.com>
  * @author Piotr Leszkowicz <piotr@bayzat.com>
+ * @author Jiri Prokop <jiri@bayzat.com>
  */
 
 module.exports = {
@@ -46,6 +47,7 @@ module.exports = {
     rules: {
         'arrow-parens': [ 'error', 'always' ],
         'arrow-body-style': [ 'error', 'always'],
+        'arrow-spacing': 'error',
         'brace-style': [ 'error', '1tbs' ],
         'comma-dangle': [ 'error', 'never' ],
         'curly': 'error',
@@ -66,6 +68,7 @@ module.exports = {
         'object-curly-spacing': [ 'error', 'always' ],
         'semi': [ 'error', 'never' ],
         'spaced-comment': [ 'error', 'always' ],
+        'space-before-blocks': 'error',
         'strict': 'off',
         'quotes': [ 'error', 'single' ],
         'eol-last': [ 'error', 'always' ]
