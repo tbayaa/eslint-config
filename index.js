@@ -19,32 +19,7 @@ module.exports = {
         'commonjs': true,
         'mocha': true
     },
-    'ecmaFeatures': {
-        'arrowFunctions': true,
-        'binaryLiterals': true,
-        'blockBindings': true,
-        'classes': true,
-        'defaultParams': true,
-        'destructuring': true,
-        'forOf': true,
-        'generators': true,
-        'modules': true,
-        'objectLiteralComputedProperties': true,
-        'objectLiteralDuplicateProperties': true,
-        'objectLiteralShorthandMethods': true,
-        'objectLiteralShorthandProperties': true,
-        'octalLiterals': true,
-        'regexUFlag': true,
-        'regexYFlag': true,
-        'restParams': true,
-        'spread': true,
-        'superInFunctions': true,
-        'templateStrings': true,
-        'unicodeCodePointEscapes': true,
-        'globalReturn': true,
-        'jsx': true
-    },
-    rules: {
+    'rules': {
         'arrow-parens': [ 'error', 'always' ],
         'arrow-body-style': [ 'error', 'always'],
         'arrow-spacing': 'error',
