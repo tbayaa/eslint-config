@@ -42,8 +42,10 @@ module.exports = {
         'no-unused-vars': [ 'error', { 'vars': 'all', 'args': 'none' } ],
         'object-curly-spacing': [ 'error', 'always' ],
         'semi': [ 'error', 'never' ],
+        'space-infix-ops': [ 'error', { 'int32Hint': false } ],
         'spaced-comment': [ 'error', 'always' ],
         'space-before-blocks': 'error',
+        'space-before-function-paren': [ 'error', 'never' ],
         'strict': 'off',
         'quotes': [ 'error', 'single' ],
         'eol-last': [ 'error', 'always' ]
