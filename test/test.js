@@ -18,11 +18,11 @@ const eslintOpts = {
 }
 
 // Runs the linter on the repo files and asserts no errors were found.
-let cli = new eslint.CLIEngine(eslintOpts)
+const cli = new eslint.CLIEngine(eslintOpts)
 const report = cli.executeOnFiles(repoFiles)
 if (report.errorCount || report.warningCount) {
     // get the default formatter
-    var formatter = cli.getFormatter()
+    const formatter = cli.getFormatter()
 
     // output to console
     console.log(formatter(report.results)) // eslint-disable-line no-console
