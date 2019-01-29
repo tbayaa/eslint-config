@@ -36,7 +36,11 @@
       "email": "piotr@bayzat.com"
     }
   ],
+  "dependencies": {
+    "eslint-plugin-bayzat": "github:bayzat/eslint-plugin-bayzat",
+    "eslint-plugin-ember": "^6.2.0"
+  },
   "devDependencies": {
-    "eslint": "^4.16.0"
+    "eslint": "^5.12.1"
   }
 }
