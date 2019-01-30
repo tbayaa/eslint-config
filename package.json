@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bayzat",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "description": "Shareable ESLint-er config used in all bayzat projects.",
   "main": "index.js",
   "scripts": {
