@@ -37,7 +37,7 @@
     }
   ],
   "dependencies": {
-    "eslint-plugin-bayzat": "github:bayzat/eslint-plugin-bayzat",
+    "eslint-plugin-bayzat": "github:bayzat/eslint-plugin-bayzat#v1.0.0",
     "eslint-plugin-ember": "^6.2.0"
   },
   "devDependencies": {
