@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bayzat",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Shareable ESLint-er config used in all bayzat projects.",
   "main": "index.js",
   "scripts": {
@@ -37,7 +37,7 @@
     }
   ],
   "dependencies": {
-    "eslint-plugin-bayzat": "github:bayzat/eslint-plugin-bayzat#v1.0.0",
+    "eslint-plugin-bayzat": "github:bayzat/eslint-plugin-bayzat#v1.0.1",
     "eslint-plugin-ember": "^6.2.0"
   },
   "devDependencies": {
